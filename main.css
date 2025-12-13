@@ -1,0 +1,127 @@
+    .steep{
+        display: inline-block;
+       grid-template-columns: 4fr 4fr 4fr;
+       padding-left: 12px;
+       background-color: whitesmoke;
+       border-radius: 7px;
+       margin-top: 14px;
+    
+}
+
+.name{
+   margin-top: 0;
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+
+.merry{
+    -webkit-text-stroke: 1px goldenrod;
+    color: red;
+     text-align: center;
+     animation: mymove 10s infinite;
+}
+
+.bill{
+        color: white;
+        text-shadow: 0 0 10px red, 0 0 20px green;
+        font-size: 8vw;
+        text-align: center;
+        max-width: 100%;
+        height: auto;
+        animation: mywork 10s reverse;
+    }
+.chris{
+    color: aliceblue;
+    text-shadow: 0 0 10px red, 0 0 20px green;
+     text-align: center;
+}
+
+.front{
+    background-image: url(image\ 6.jpg);
+    background-size: cover;
+    border-radius: 12px;
+}
+
+@keyframes mymove {
+  50% {font-size: 40px;}
+}
+.pages{
+    color: white;
+     text-align: center;
+     font-weight: bold;
+     -webkit-text-stroke: 1px green;
+}
+
+.image{
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+     animation: bounce 10s infinite ease-in-out;  
+}
+
+@keyframes mywork {
+  50% {font-size: 40px;}
+}
+
+.picture{
+    border-radius: 12px;
+    margin-bottom: 12px;
+    margin-top: 14px;
+    
+}
+
+.stepin{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    animation: bounce 10s infinite ease-in-out;
+}
+
+@keyframes bounce{
+    0%{transform: translateY(0);}
+    50% {transform: translateY(-50px);}
+    10% {transform: translateY(0);}
+}
+
+.parag{
+        font-size: 18px;
+        width: 80%s;
+        line-height: 1.6;
+    }
+
+ .main{
+        max-width: 650px;
+        background-color: whitesmoke;
+        border-radius: 14px;
+        padding: 1.88rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background-color: white;
+        padding: 2rem; 
+        font-size: 80%;
+        
+    }
+
+    .owns{ 
+        width: 120px;
+        height: 120px;
+        border-radius: 14px;
+    }
+
+   body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background-color:whitesmoke;
+        padding: 2rem; 
+        font-size: 80%;
+    }
